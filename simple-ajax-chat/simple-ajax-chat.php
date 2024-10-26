@@ -9,9 +9,9 @@
 	Donate link: https://monzillamedia.com/donate.html
 	Contributors: specialk
 	Requires at least: 4.6
-	Tested up to: 6.6
-	Stable tag: 20240702
-	Version:    20240702
+	Tested up to: 6.7
+	Stable tag: 20241026
+	Version:    20241026
 	Requires PHP: 5.6.20
 	Text Domain: simple-ajax-chat
 	Domain Path: /languages
@@ -38,7 +38,7 @@
 if (!defined('ABSPATH')) exit;
 
 if (!defined('SIMPLE_AJAX_CHAT_WP_VERS'))   define('SIMPLE_AJAX_CHAT_WP_VERS',   '4.6');
-if (!defined('SIMPLE_AJAX_CHAT_VERSION'))   define('SIMPLE_AJAX_CHAT_VERSION',   '20240702');
+if (!defined('SIMPLE_AJAX_CHAT_VERSION'))   define('SIMPLE_AJAX_CHAT_VERSION',   '20241026');
 if (!defined('SIMPLE_AJAX_CHAT_NAME'))      define('SIMPLE_AJAX_CHAT_NAME',      'Simple Ajax Chat');
 if (!defined('SIMPLE_AJAX_CHAT_HOME'))      define('SIMPLE_AJAX_CHAT_HOME',      'https://perishablepress.com/simple-ajax-chat/');
 if (!defined('SIMPLE_AJAX_CHAT_FILE'))      define('SIMPLE_AJAX_CHAT_FILE',      __FILE__);

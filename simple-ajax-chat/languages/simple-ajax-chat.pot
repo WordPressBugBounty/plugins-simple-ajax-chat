@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-07-02 21:02+0000\n"
+"POT-Creation-Date: 2024-10-26 19:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -51,6 +51,10 @@ msgstr ""
 msgid "All chat messages deleted."
 msgstr ""
 
+#: simple-ajax-chat-admin.php:1260
+msgid "and"
+msgstr ""
+
 #: support-panel.php:61
 msgid "and is greatly appreciated."
 msgstr ""
@@ -73,12 +77,20 @@ msgstr ""
 msgid "Appearance"
 msgstr ""
 
+#: simple-ajax-chat-admin.php:1262
+msgid "Apply code"
+msgstr ""
+
 #: simple-ajax-chat-admin.php:1211
 msgid ""
 "Are you sure you want to create a new file on the server? It may contain "
 "sensitive data like user IP address. You can always delete the file by "
 "clicking on the \"Delete CSV\" link, which will appear after the file is "
 "created. Click \"OK\" to continue."
+msgstr ""
+
+#: simple-ajax-chat-admin.php:1262
+msgid "at checkout. Sale ends 12/21/24."
 msgstr ""
 
 #: simple-ajax-chat-admin.php:994
@@ -97,12 +109,8 @@ msgstr ""
 msgid "Before chat form"
 msgstr ""
 
-#: support-panel.php:53
+#: support-panel.php:53 simple-ajax-chat-admin.php:1261
 msgid "books"
-msgstr ""
-
-#: simple-ajax-chat-admin.php:1258
-msgid "Buy one get one FREE with code"
 msgstr ""
 
 #: simple-ajax-chat-admin.php:1154
@@ -299,7 +307,7 @@ msgstr ""
 msgid "Disable Notifications. Completely disable all notifications."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1335
+#: simple-ajax-chat-admin.php:1337
 msgid "Dismiss"
 msgstr ""
 
@@ -378,6 +386,10 @@ msgid ""
 "."
 msgstr ""
 
+#: simple-ajax-chat-admin.php:1257
+msgid "Fall Sale!"
+msgstr ""
+
 #: simple-ajax-chat-admin.php:916
 msgid "for a complete list of CSS selectors."
 msgstr ""
@@ -388,10 +400,6 @@ msgstr ""
 
 #: simple-ajax-chat.php:546
 msgid "Get SAC Pro!"
-msgstr ""
-
-#: simple-ajax-chat-admin.php:1260
-msgid "Get&nbsp;plugins&nbsp;&raquo;"
 msgstr ""
 
 #: simple-ajax-chat-admin.php:616 simple-ajax-chat-admin.php:649
@@ -631,10 +639,6 @@ msgstr ""
 msgid "or by making a"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1259
-msgid "or take 30% off with code"
-msgstr ""
-
 #: simple-ajax-chat-admin.php:633
 msgid "Overview"
 msgstr ""
@@ -693,16 +697,16 @@ msgstr ""
 msgid "Posted:"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1257
-msgid "Pro Plugin Sale!"
-msgstr ""
-
 #: simple-ajax-chat-admin.php:1135
 msgid "Pro version"
 msgstr ""
 
 #: simple-ajax-chat-admin.php:666
 msgid "Pro version&nbsp;&raquo;"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:1259
+msgid "Pro WordPress plugins"
 msgstr ""
 
 #: simple-ajax-chat.php:576
@@ -823,6 +827,10 @@ msgstr ""
 
 #: simple-ajax-chat-admin.php:915
 msgid "tags. Check out"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:1258
+msgid "Take 25% OFF any of our"
 msgstr ""
 
 #: simple-ajax-chat-admin.php:923

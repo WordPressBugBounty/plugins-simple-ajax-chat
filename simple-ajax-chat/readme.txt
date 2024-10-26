@@ -9,9 +9,9 @@ Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.6
-Tested up to: 6.6
-Stable tag: 20240702
-Version:    20240702
+Tested up to: 6.7
+Stable tag: 20241026
+Version:    20241026
 Requires PHP: 5.6.20
 Text Domain: simple-ajax-chat
 Domain Path: /languages
@@ -31,7 +31,9 @@ Display an Ajax-powered chat box anywhere. Lightweight, flexible, fast, and secu
 Simple Ajax Chat makes it easy for your visitors to chat with each other on your website. Simply add a shortcode to any post or page and done! Instant chat forum anywhere. The chat form is fully customizable with many options, so you can create the perfect chat box for your visitors.
 
 
-> Check out the [Live Demo of Simple Ajax Chat &raquo;](https://wp-mix.com/chat/)
+> Check out a [Live Demo of Simple Ajax Chat at WP-Mix &raquo;](https://wp-mix.com/chat/)
+
+> Check out a [review of Simple Ajax Chat at WPBeginner &raquo;](https://www.wpbeginner.com/solutions/simple-ajax-chat/)
 
 > __New__ [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chats!
 
@@ -355,13 +357,11 @@ If you like Simple Ajax Chat, please take a moment to [give a 5-star rating](htt
 > __New__ [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chats!
 
 
-**20240702**
+**20241026**
 
-* Fixes bug with `null` URLs in chat links
-* Fixes bug with `dismiss_notice_link`
 * Updates plugin settings page
 * Updates default translation template
-* Tests on WordPress 6.6 (beta)
+* Tests on WordPress 6.7 (beta)
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/simple-ajax-chat.txt](https://plugin-planet.com/wp/changelog/simple-ajax-chat.txt)

@@ -498,19 +498,23 @@ function sac_render_form() {
 			#mm-plugin-options .sac-pro { display: none; }
 		}
 		
-		.wp-admin .notice code { line-height: 1; font-size: 12px; }
-		.wp-admin .sac-dismiss-notice { float: right; }
+		
 		#mm-plugin-options .notice-custom p { margin-left: 0; margin-right: 0; }
-		@media (max-width: 1100px) {
-			.wp-admin .sac-dismiss-notice { float: none; }
+		
+		#mm-plugin-options .notice-margin p { margin: 10px 0; line-height: 1.6; }
+		
+		#mm-plugin-options .notice code { line-height: 1; font-size: 12px; }
+		
+		#mm-plugin-options .sac-dismiss-notice { float: right; }
+		
+		@media (max-width: 782px) {
+			#mm-plugin-options .notice-margin { padding: 0 10px; }
 		}
 		
-		.wp-admin .notice-custom { background-image: url(<?php echo plugins_url('/simple-ajax-chat/images/sun-icon.png'); ?>); background-repeat: no-repeat; background-position: left 5px center; background-size: 60px 40px; }
-		.wp-admin .notice-custom p { margin: 15px 0; padding-left: 60px; line-height: 1.6; }
-		.wp-admin .notice-link { display: inline-block; margin-right: 5px; }
-		@media (max-width: 782px) {
-			.wp-admin .notice-custom p { margin: 10px 0; }
+		@media (max-width: 1100px) {
+			#mm-plugin-options .sac-dismiss-notice { float: none; }
 		}
+		
 		
 		#mm-plugin-options .mm-panel-toggle { margin: 5px 0; }
 		#mm-plugin-options .mm-credit-info { margin: -10px 0 10px 5px; font-size: 12px; }
@@ -1252,12 +1256,14 @@ function sac_admin_notice() {
 			
 			?>
 			
-			<div class="notice notice-success notice-custom">
+			<div class="notice notice-success notice-margin">
 				<p>
-					<strong><?php esc_html_e('Pro Plugin Sale!', 'simple-ajax-chat'); ?></strong> 
-					<?php esc_html_e('Buy one get one FREE with code', 'simple-ajax-chat'); ?> <code>BOGO24</code>, 
-					<?php esc_html_e('or take 30% off with code', 'simple-ajax-chat'); ?> <code>SUPER24</code> 
-					⭐ <a class="notice-link" target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/super-summer-sale/"><?php esc_html_e('Get&nbsp;plugins&nbsp;&raquo;', 'simple-ajax-chat'); ?></a> 
+					<strong><?php esc_html_e('Fall Sale!', 'simple-ajax-chat'); ?></strong> 
+					<?php esc_html_e('Take 25% OFF any of our', 'simple-ajax-chat'); ?> 
+					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/"><?php esc_html_e('Pro WordPress plugins', 'simple-ajax-chat'); ?></a> 
+					<?php esc_html_e('and', 'simple-ajax-chat'); ?> 
+					<a target="_blank" rel="noopener noreferrer" href="https://books.perishablepress.com/"><?php esc_html_e('books', 'simple-ajax-chat'); ?></a>. 
+					<?php esc_html_e('Apply code', 'simple-ajax-chat'); ?> <code>FALL2024</code> <?php esc_html_e('at checkout. Sale ends 12/21/24.', 'simple-ajax-chat'); ?> 
 					<?php echo sac_dismiss_notice_link(); ?>
 				</p>
 			</div>
@@ -1340,7 +1346,7 @@ function sac_dismiss_notice_link() {
 
 function sac_check_date_expired() {
 	
-	$expires = apply_filters('sac_check_date_expired', '2024-09-22');
+	$expires = apply_filters('sac_check_date_expired', '2024-12-21');
 	
 	return (new DateTime() > new DateTime($expires)) ? true : false;
 	
