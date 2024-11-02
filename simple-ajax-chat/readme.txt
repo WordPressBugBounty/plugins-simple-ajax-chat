@@ -10,8 +10,8 @@ Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.6
 Tested up to: 6.7
-Stable tag: 20241026
-Version:    20241026
+Stable tag: 20241102
+Version:    20241102
 Requires PHP: 5.6.20
 Text Domain: simple-ajax-chat
 Domain Path: /languages
@@ -357,11 +357,10 @@ If you like Simple Ajax Chat, please take a moment to [give a 5-star rating](htt
 > __New__ [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chats!
 
 
-**20241026**
+**20241102**
 
-* Updates plugin settings page
-* Updates default translation template
-* Tests on WordPress 6.7 (beta)
+* Fixes bug with textdomain loading
+* Tests on WordPress 6.7
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/simple-ajax-chat.txt](https://plugin-planet.com/wp/changelog/simple-ajax-chat.txt)
