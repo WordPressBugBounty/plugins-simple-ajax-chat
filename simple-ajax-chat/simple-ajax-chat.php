@@ -8,10 +8,10 @@
 	Author URI: https://plugin-planet.com/
 	Donate link: https://monzillamedia.com/donate.html
 	Contributors: specialk
-	Requires at least: 4.6
-	Tested up to: 6.7
-	Stable tag: 20241102
-	Version:    20241102
+	Requires at least: 4.7
+	Tested up to: 6.8
+	Stable tag: 20250329
+	Version:    20250329
 	Requires PHP: 5.6.20
 	Text Domain: simple-ajax-chat
 	Domain Path: /languages
@@ -32,13 +32,13 @@
 	You should have received a copy of the GNU General Public License
 	with this program. If not, visit: https://www.gnu.org/licenses/
 	
-	Copyright 2024 Monzilla Media. All rights reserved.
+	Copyright 2025 Monzilla Media. All rights reserved.
 */
 
 if (!defined('ABSPATH')) exit;
 
-if (!defined('SIMPLE_AJAX_CHAT_WP_VERS'))   define('SIMPLE_AJAX_CHAT_WP_VERS',   '4.6');
-if (!defined('SIMPLE_AJAX_CHAT_VERSION'))   define('SIMPLE_AJAX_CHAT_VERSION',   '20241102');
+if (!defined('SIMPLE_AJAX_CHAT_WP_VERS'))   define('SIMPLE_AJAX_CHAT_WP_VERS',   '4.7');
+if (!defined('SIMPLE_AJAX_CHAT_VERSION'))   define('SIMPLE_AJAX_CHAT_VERSION',   '20250329');
 if (!defined('SIMPLE_AJAX_CHAT_NAME'))      define('SIMPLE_AJAX_CHAT_NAME',      'Simple Ajax Chat');
 if (!defined('SIMPLE_AJAX_CHAT_HOME'))      define('SIMPLE_AJAX_CHAT_HOME',      'https://perishablepress.com/simple-ajax-chat/');
 if (!defined('SIMPLE_AJAX_CHAT_FILE'))      define('SIMPLE_AJAX_CHAT_FILE',      __FILE__);
@@ -59,43 +59,13 @@ $sac_options = get_option('sac_options', sac_default_options());
 
 
 
-// i18n
-function sac_i18n_init() {
+// check pro version
+function sac_check_pro() {
 	
-	$domain = 'simple-ajax-chat';
-	
-	$locale = apply_filters('simple_ajax_chat_locale', get_locale(), $domain);
-	
-	$dir    = trailingslashit(WP_LANG_DIR);
-	
-	$file   = $domain .'-'. $locale .'.mo';
-	
-	$path_1 = $dir . $file;
-	
-	$path_2 = $dir . $domain .'/'. $file;
-	
-	$path_3 = $dir .'plugins/'. $file;
-	
-	$path_4 = $dir .'plugins/'. $domain .'/'. $file;
-	
-	$paths = array($path_1, $path_2, $path_3, $path_4);
-	
-	foreach ($paths as $path) {
-		
-		if ($loaded = load_textdomain($domain, $path)) {
-			
-			return $loaded;
-			
-		} else {
-			
-			return load_plugin_textdomain($domain, false, dirname(SIMPLE_AJAX_CHAT_BASE_FILE) .'/languages/');
-			
-		}
-		
-	}
+	if (function_exists('simple_ajax_chat_pro_options')) deactivate_plugins(SIMPLE_AJAX_CHAT_BASE_FILE);
 	
 }
-add_action('init', 'sac_i18n_init');
+add_action('admin_init', 'sac_check_pro');
 
 
 

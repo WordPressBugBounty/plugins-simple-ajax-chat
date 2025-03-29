@@ -481,7 +481,7 @@ function sac_render_form() {
 	<style type="text/css">
 		#mm-plugin-options .mm-panel-overview {
 			box-sizing: border-box; width: 100%; overflow: hidden; position: relative; padding: 0 15px 15px 135px;
-			background: url(<?php echo plugins_url('/simple-ajax-chat/resources/sac-logo.png'); ?>);
+			background-image: url(<?php echo plugins_url('/simple-ajax-chat/resources/sac-logo.png'); ?>);
 			background-repeat: no-repeat; background-position: 15px 0; background-size: 120px 120px;
 			}
 		#mm-plugin-options .sac-col-1 { box-sizing: border-box; width: 100%; float: left; }
@@ -498,23 +498,23 @@ function sac_render_form() {
 			#mm-plugin-options .sac-pro { display: none; }
 		}
 		
-		
-		#mm-plugin-options .notice-custom p { margin-left: 0; margin-right: 0; }
-		
 		#mm-plugin-options .notice-margin p { margin: 10px 0; line-height: 1.6; }
-		
 		#mm-plugin-options .notice code { line-height: 1; font-size: 12px; }
-		
 		#mm-plugin-options .sac-dismiss-notice { float: right; }
+		
+		#mm-plugin-options .notice-custom { 
+			background-image: url(<?php echo plugins_url('/simple-ajax-chat/images/sun-icon.png'); ?>); 
+			background-repeat: no-repeat; background-position: left 5px center; background-size: 60px 40px; 
+			}
+		#mm-plugin-options .notice-custom p { margin: 15px 0; padding-left: 60px; }
 		
 		@media (max-width: 782px) {
 			#mm-plugin-options .notice-margin { padding: 0 10px; }
 		}
-		
-		@media (max-width: 1100px) {
+		@media (max-width: 1250px) {
+			#mm-plugin-options .notice-custom p { margin: 10px 0; }
 			#mm-plugin-options .sac-dismiss-notice { float: none; }
 		}
-		
 		
 		#mm-plugin-options .mm-panel-toggle { margin: 5px 0; }
 		#mm-plugin-options .mm-credit-info { margin: -10px 0 10px 5px; font-size: 12px; }
@@ -1156,7 +1156,7 @@ function sac_render_form() {
 		
 		<div class="mm-credit-info">
 			<a target="_blank" rel="noopener noreferrer" href="<?php echo SIMPLE_AJAX_CHAT_HOME; ?>" title="<?php esc_attr_e('Plugin Homepage', 'simple-ajax-chat'); ?>"><?php echo SIMPLE_AJAX_CHAT_NAME; ?></a> <?php esc_html_e('by', 'simple-ajax-chat'); ?> 
-			<a target="_blank" rel="noopener noreferrer" href="https://twitter.com/perishable" title="<?php esc_attr_e('Jeff Starr on Twitter', 'simple-ajax-chat'); ?>">Jeff Starr</a> @ 
+			<a target="_blank" rel="noopener noreferrer" href="https://x.com/perishable" title="<?php esc_attr_e('Jeff Starr on X (Twitter)', 'simple-ajax-chat'); ?>">Jeff Starr</a> @ 
 			<a target="_blank" rel="noopener noreferrer" href="https://monzillamedia.com/" title="<?php esc_attr_e('Obsessive Web Design &amp; Development', 'simple-ajax-chat'); ?>">Monzilla Media</a>
 		</div>
 		
@@ -1256,14 +1256,14 @@ function sac_admin_notice() {
 			
 			?>
 			
-			<div class="notice notice-success notice-margin">
+			<div class="notice notice-success notice-margin notice-custom">
 				<p>
-					<strong><?php esc_html_e('Fall Sale!', 'simple-ajax-chat'); ?></strong> 
-					<?php esc_html_e('Take 25% OFF any of our', 'simple-ajax-chat'); ?> 
+					<strong><?php esc_html_e('Spring Sale!', 'simple-ajax-chat'); ?></strong> 
+					<?php esc_html_e('Take 30% OFF any of our', 'simple-ajax-chat'); ?> 
 					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/"><?php esc_html_e('Pro WordPress plugins', 'simple-ajax-chat'); ?></a> 
 					<?php esc_html_e('and', 'simple-ajax-chat'); ?> 
 					<a target="_blank" rel="noopener noreferrer" href="https://books.perishablepress.com/"><?php esc_html_e('books', 'simple-ajax-chat'); ?></a>. 
-					<?php esc_html_e('Apply code', 'simple-ajax-chat'); ?> <code>FALL2024</code> <?php esc_html_e('at checkout. Sale ends 12/21/24.', 'simple-ajax-chat'); ?> 
+					<?php esc_html_e('Apply code', 'simple-ajax-chat'); ?> <code>SPRING2025</code> <?php esc_html_e('at checkout. Sale ends 6/25/2025.', 'simple-ajax-chat'); ?> 
 					<?php echo sac_dismiss_notice_link(); ?>
 				</p>
 			</div>
@@ -1346,7 +1346,7 @@ function sac_dismiss_notice_link() {
 
 function sac_check_date_expired() {
 	
-	$expires = apply_filters('sac_check_date_expired', '2024-12-21');
+	$expires = apply_filters('sac_check_date_expired', '2025-06-25');
 	
 	return (new DateTime() > new DateTime($expires)) ? true : false;
 	

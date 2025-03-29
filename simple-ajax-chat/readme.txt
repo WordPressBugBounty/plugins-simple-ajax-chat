@@ -8,10 +8,10 @@ Author: Jeff Starr
 Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
-Requires at least: 4.6
-Tested up to: 6.7
-Stable tag: 20241102
-Version:    20241102
+Requires at least: 4.7
+Tested up to: 6.8
+Stable tag: 20250329
+Version:    20250329
 Requires PHP: 5.6.20
 Text Domain: simple-ajax-chat
 Domain Path: /languages
@@ -23,19 +23,19 @@ Display an Ajax-powered chat box anywhere. Lightweight, flexible, fast, and secu
 
 == Description ==
 
-> The simplest possible persistent chat solution!
+> ⭐ The simplest possible persistent chat solution!
 
-> Fully self-hosted: No 3rd-party account required :)
+> ⭐ Fully self-hosted: No 3rd-party account required :)
 
 
 Simple Ajax Chat makes it easy for your visitors to chat with each other on your website. Simply add a shortcode to any post or page and done! Instant chat forum anywhere. The chat form is fully customizable with many options, so you can create the perfect chat box for your visitors.
 
 
-> Check out a [Live Demo of Simple Ajax Chat at WP-Mix &raquo;](https://wp-mix.com/chat/)
+> 👉🏻 Check out a [Live Demo of Simple Ajax Chat at WP-Mix &raquo;](https://wp-mix.com/chat/)
 
-> Check out a [review of Simple Ajax Chat at WPBeginner &raquo;](https://www.wpbeginner.com/solutions/simple-ajax-chat/)
+> 👉🏻 Check out a [review of Simple Ajax Chat at WPBeginner &raquo;](https://www.wpbeginner.com/solutions/simple-ajax-chat/)
 
-> __New__ [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chats!
+> 👉🏻 [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chats!
 
 
 Simple Ajax Chat is fully self-hosted with NO 3rd-party service required. Many (if not all) of the other free chat plugins require registration and monthly service from a 3rd-party provider. With Simple Ajax Chat, there is no 3rd-party: WordPress is all that's required. Own your chats!
@@ -96,7 +96,7 @@ Pro can do everything free can do and SO much more. Customize each chat form wit
 * Customize the fade-duration for new chats
 * Plus much more!
 
-That's a LOT of awesome features, but the Pro version has WAY more. [Compare features (free vs. pro) &raquo;](https://plugin-planet.com/simple-ajax-chat-pro/#free-vs-pro)
+That's a LOT of features, but the Pro version has WAY more. [Compare features (free vs. pro) &raquo;](https://plugin-planet.com/simple-ajax-chat-pro/#free-vs-pro)
 
 
 **Privacy**
@@ -111,7 +111,7 @@ This plugin supports [translation into any language &raquo;](https://translate.w
 
 **Developer**
 
-Simple Ajax Chat is developed and maintained by [Jeff Starr](https://twitter.com/perishable), 15-year [WordPress developer](https://plugin-planet.com/) and [book author](https://books.perishablepress.com/).
+Simple Ajax Chat is developed and maintained by [Jeff Starr](https://x.com/perishable), 15-year [WordPress developer](https://plugin-planet.com/) and [book author](https://books.perishablepress.com/).
 
 
 **Support development**
@@ -130,6 +130,7 @@ And/or purchase one of my premium WordPress plugins:
 * [Blackhole Pro](https://plugin-planet.com/blackhole-pro/) - Automatically block bad bots
 * [Banhammer Pro](https://plugin-planet.com/banhammer-pro/) - Monitor traffic and ban the bad guys
 * [GA Google Analytics Pro](https://plugin-planet.com/ga-google-analytics-pro/) - Connect WordPress to Google Analytics
+* [Head Meta Pro](https://plugin-planet.com/head-meta-pro/) - Ultimate Meta Tags for WordPress
 * [Simple Ajax Chat Pro](https://plugin-planet.com/simple-ajax-chat-pro/) - Unlimited chat rooms
 * [USP Pro](https://plugin-planet.com/usp-pro/) - Unlimited front-end forms
 
@@ -354,13 +355,18 @@ Send any questions or feedback via my [contact form](https://plugin-planet.com/s
 
 If you like Simple Ajax Chat, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/simple-ajax-chat/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
 
-> __New__ [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chats!
+> 👉🏻 [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chats!
 
 
-**20241102**
+**20250329**
 
-* Fixes bug with textdomain loading
-* Tests on WordPress 6.7
+* Removes `sac_i18n_init()` function
+* Adds function to check if pro version active
+* Adds uninstall option `simple-ajax-chat-dismiss-notice`
+* Bumps minimum required WP version
+* Updates plugin settings page
+* Generates new language template
+* Tests on WordPress 6.8
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/simple-ajax-chat.txt](https://plugin-planet.com/wp/changelog/simple-ajax-chat.txt)

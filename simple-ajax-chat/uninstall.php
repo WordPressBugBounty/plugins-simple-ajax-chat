@@ -11,6 +11,7 @@ $wpdb->query("DROP TABLE IF EXISTS {$table_name}");
 // delete sac options
 delete_option('sac_options');
 delete_option('sac_censors');
+delete_option('simple-ajax-chat-dismiss-notice');
 
 // delete sac transients
 delete_transient('sac_logged_users');
