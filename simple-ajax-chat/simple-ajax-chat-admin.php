@@ -498,23 +498,33 @@ function sac_render_form() {
 			#mm-plugin-options .sac-pro { display: none; }
 		}
 		
-		#mm-plugin-options .notice-margin p { margin: 10px 0; line-height: 1.6; }
+		/* sale banner */
+		
+		#mm-plugin-options .notice-lh p { margin-right: 0; margin-left: 0; line-height: 1.8; }
 		#mm-plugin-options .notice code { line-height: 1; font-size: 12px; }
 		#mm-plugin-options .sac-dismiss-notice { float: right; }
 		
+		@media (max-width: 782px) {
+			#mm-plugin-options .notice-lh { padding: 0 10px; }
+		}
+		
+		@media (max-width: 1250px) {
+			#mm-plugin-options .sac-dismiss-notice { float: none; }
+		}
+		
+		/* summer sale icon */
+		
 		#mm-plugin-options .notice-custom { 
 			background-image: url(<?php echo plugins_url('/simple-ajax-chat/images/sun-icon.png'); ?>); 
-			background-repeat: no-repeat; background-position: left 5px center; background-size: 60px 40px; 
+			background-repeat: no-repeat; background-position: left 5px center; background-size: 60px 40px;
 			}
 		#mm-plugin-options .notice-custom p { margin: 15px 0; padding-left: 60px; }
 		
-		@media (max-width: 782px) {
-			#mm-plugin-options .notice-margin { padding: 0 10px; }
-		}
 		@media (max-width: 1250px) {
 			#mm-plugin-options .notice-custom p { margin: 10px 0; }
-			#mm-plugin-options .sac-dismiss-notice { float: none; }
 		}
+		
+		/* summer sale icon */
 		
 		#mm-plugin-options .mm-panel-toggle { margin: 5px 0; }
 		#mm-plugin-options .mm-credit-info { margin: -10px 0 10px 5px; font-size: 12px; }
@@ -655,7 +665,7 @@ function sac_render_form() {
 								</div>
 								<div class="sac-col-2">
 									<div class="sac-pro">SAC&nbsp;Pro</div>
-									<div class="sac-pro-blurb">💬 Check out the new <a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/simple-ajax-chat-pro/" title="Simple Ajax Chat Pro">PRO Version&nbsp;&raquo;</a></div>
+									<div class="sac-pro-blurb">💬 Check out the <a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/simple-ajax-chat-pro/" title="Simple Ajax Chat Pro">PRO Version&nbsp;&raquo;</a></div>
 								</div>
 							</div>
 						</div>
@@ -1256,14 +1266,11 @@ function sac_admin_notice() {
 			
 			?>
 			
-			<div class="notice notice-success notice-margin notice-custom">
+			<div class="notice notice-success notice-lh">
 				<p>
-					<strong><?php esc_html_e('Spring Sale!', 'simple-ajax-chat'); ?></strong> 
-					<?php esc_html_e('Take 30% OFF any of our', 'simple-ajax-chat'); ?> 
-					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/"><?php esc_html_e('Pro WordPress plugins', 'simple-ajax-chat'); ?></a> 
-					<?php esc_html_e('and', 'simple-ajax-chat'); ?> 
-					<a target="_blank" rel="noopener noreferrer" href="https://books.perishablepress.com/"><?php esc_html_e('books', 'simple-ajax-chat'); ?></a>. 
-					<?php esc_html_e('Apply code', 'simple-ajax-chat'); ?> <code>SPRING2025</code> <?php esc_html_e('at checkout. Sale ends 6/25/2025.', 'simple-ajax-chat'); ?> 
+					<strong><?php esc_html_e('😎 SAVE 30% on SAC Pro!', 'simple-ajax-chat'); ?></strong> 
+					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/simple-ajax-chat-pro/"><?php esc_html_e('Level up your chat game with powerful features and unlimited chat forms', 'simple-ajax-chat'); ?></a>. 
+					<?php esc_html_e('Apply code', 'simple-ajax-chat'); ?> <code>SACPRO</code> <?php esc_html_e('at checkout. Sale ends 3/28/2026.', 'simple-ajax-chat'); ?> 
 					<?php echo sac_dismiss_notice_link(); ?>
 				</p>
 			</div>
@@ -1346,7 +1353,7 @@ function sac_dismiss_notice_link() {
 
 function sac_check_date_expired() {
 	
-	$expires = apply_filters('sac_check_date_expired', '2025-06-25');
+	$expires = apply_filters('sac_check_date_expired', '2026-03-28');
 	
 	return (new DateTime() > new DateTime($expires)) ? true : false;
 	

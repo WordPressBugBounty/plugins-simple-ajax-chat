@@ -9,16 +9,14 @@
 	Donate link: https://monzillamedia.com/donate.html
 	Contributors: specialk
 	Requires at least: 4.7
-	Tested up to: 6.8
-	Stable tag: 20250329
-	Version:    20250329
+	Tested up to: 6.9
+	Stable tag: 20260205
+	Version:    20260205
 	Requires PHP: 5.6.20
 	Text Domain: simple-ajax-chat
 	Domain Path: /languages
 	License: GPL v2 or later
-*/
-
-/*
+	
 	This program is free software; you can redistribute it and/or
 	modify it under the terms of the GNU General Public License
 	as published by the Free Software Foundation; either version 
@@ -32,13 +30,13 @@
 	You should have received a copy of the GNU General Public License
 	with this program. If not, visit: https://www.gnu.org/licenses/
 	
-	Copyright 2025 Monzilla Media. All rights reserved.
+	Copyright 2012-2026 Monzilla Media. All rights reserved.
 */
 
 if (!defined('ABSPATH')) exit;
 
 if (!defined('SIMPLE_AJAX_CHAT_WP_VERS'))   define('SIMPLE_AJAX_CHAT_WP_VERS',   '4.7');
-if (!defined('SIMPLE_AJAX_CHAT_VERSION'))   define('SIMPLE_AJAX_CHAT_VERSION',   '20250329');
+if (!defined('SIMPLE_AJAX_CHAT_VERSION'))   define('SIMPLE_AJAX_CHAT_VERSION',   '20260205');
 if (!defined('SIMPLE_AJAX_CHAT_NAME'))      define('SIMPLE_AJAX_CHAT_NAME',      'Simple Ajax Chat');
 if (!defined('SIMPLE_AJAX_CHAT_HOME'))      define('SIMPLE_AJAX_CHAT_HOME',      'https://perishablepress.com/simple-ajax-chat/');
 if (!defined('SIMPLE_AJAX_CHAT_FILE'))      define('SIMPLE_AJAX_CHAT_FILE',      __FILE__);
@@ -56,6 +54,46 @@ require_once(dirname(__FILE__) .'/simple-ajax-chat-admin.php');
 require_once(dirname(__FILE__) .'/simple-ajax-chat-form.php');
 
 $sac_options = get_option('sac_options', sac_default_options());
+
+
+
+// i18n
+function sac_i18n_init() {
+	
+	$domain = 'simple-ajax-chat';
+	
+	$locale = apply_filters('simple_ajax_chat_locale', get_locale(), $domain);
+	
+	$dir    = trailingslashit(WP_LANG_DIR);
+	
+	$file   = $domain .'-'. $locale .'.mo';
+	
+	$path_1 = $dir . $file;
+	
+	$path_2 = $dir . $domain .'/'. $file;
+	
+	$path_3 = $dir .'plugins/'. $file;
+	
+	$path_4 = $dir .'plugins/'. $domain .'/'. $file;
+	
+	$paths = array($path_1, $path_2, $path_3, $path_4);
+	
+	foreach ($paths as $path) {
+		
+		if ($loaded = load_textdomain($domain, $path)) {
+			
+			return $loaded;
+			
+		} else {
+			
+			return load_plugin_textdomain($domain, false, dirname(SIMPLE_AJAX_CHAT_BASE_FILE) .'/languages/');
+			
+		}
+		
+	}
+	
+}
+add_action('init', 'sac_i18n_init');
 
 
 

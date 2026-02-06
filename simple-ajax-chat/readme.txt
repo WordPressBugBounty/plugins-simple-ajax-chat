@@ -9,9 +9,9 @@ Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.7
-Tested up to: 6.8
-Stable tag: 20250329
-Version:    20250329
+Tested up to: 6.9
+Stable tag: 20260205
+Version:    20260205
 Requires PHP: 5.6.20
 Text Domain: simple-ajax-chat
 Domain Path: /languages
@@ -23,7 +23,7 @@ Display an Ajax-powered chat box anywhere. Lightweight, flexible, fast, and secu
 
 == Description ==
 
-> ⭐ The simplest possible persistent chat solution!
+> ⭐ Lightweight and fast, persistent chat solution!
 
 > ⭐ Fully self-hosted: No 3rd-party account required :)
 
@@ -31,11 +31,9 @@ Display an Ajax-powered chat box anywhere. Lightweight, flexible, fast, and secu
 Simple Ajax Chat makes it easy for your visitors to chat with each other on your website. Simply add a shortcode to any post or page and done! Instant chat forum anywhere. The chat form is fully customizable with many options, so you can create the perfect chat box for your visitors.
 
 
-> 👉🏻 Check out a [Live Demo of Simple Ajax Chat at WP-Mix &raquo;](https://wp-mix.com/chat/)
+> 👉 Check out a [Live Demo of Simple Ajax Chat at WP-Mix &raquo;](https://wp-mix.com/chat/)
 
-> 👉🏻 Check out a [review of Simple Ajax Chat at WPBeginner &raquo;](https://www.wpbeginner.com/solutions/simple-ajax-chat/)
-
-> 👉🏻 [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chats!
+> 👉 [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chat forms!
 
 
 Simple Ajax Chat is fully self-hosted with NO 3rd-party service required. Many (if not all) of the other free chat plugins require registration and monthly service from a 3rd-party provider. With Simple Ajax Chat, there is no 3rd-party: WordPress is all that's required. Own your chats!
@@ -96,7 +94,35 @@ Pro can do everything free can do and SO much more. Customize each chat form wit
 * Customize the fade-duration for new chats
 * Plus much more!
 
-That's a LOT of features, but the Pro version has WAY more. [Compare features (free vs. pro) &raquo;](https://plugin-planet.com/simple-ajax-chat-pro/#free-vs-pro)
+👉 That's a LOT of features, but the Pro version has WAY more. [Compare features (free vs. pro) &raquo;](https://plugin-planet.com/simple-ajax-chat-pro/#free-vs-pro)
+
+
+**Exclusive Pro Features**
+
+* Enable Google reCaptcha (invisible) for all chat forms
+* Choose from six form styles, or use custom styles
+* Advanced chat management tools and user statistics
+* Mute any user so they are not allowed to chat
+* Ban any non-admin users from any chat session
+* Enable customizable emoji picker for any chat form
+* Display user avatars next to chat messages
+* Display the user role next to chat messages
+* Define your own Bang (!bang) shortcuts
+* Email notifications for new chat messages
+* Limit number of users for any chat form
+* Create private chat boxes between users
+* Banned phrases in text messages and user names
+* Fine-grain control over allowed chat content
+* Built with vanilla JavaScript (jQuery not required)
+* Optionally display inline images in chat messages
+* Automatically clear chat messages and send email alert
+* Display a “current online users” widget for any form
+* Displays a max-character counter for messages
+* Display a role-based chat box on the WP Dashboard
+* Choose from six sound alerts for new chat messages
+* Option to include your own CSS and JavaScript
+
+👉 Learn more and [get SAC Pro &raquo;](https://plugin-planet.com/simple-ajax-chat-pro/)
 
 
 **Privacy**
@@ -126,7 +152,7 @@ I develop and maintain this free plugin with love for the WordPress community. T
 
 And/or purchase one of my premium WordPress plugins:
 
-* [BBQ Pro](https://plugin-planet.com/bbq-pro/) - Super fast WordPress firewall
+* [BBQ Pro](https://plugin-planet.com/bbq-pro/) - Blazing fast WordPress firewall
 * [Blackhole Pro](https://plugin-planet.com/blackhole-pro/) - Automatically block bad bots
 * [Banhammer Pro](https://plugin-planet.com/banhammer-pro/) - Monitor traffic and ban the bad guys
 * [GA Google Analytics Pro](https://plugin-planet.com/ga-google-analytics-pro/) - Connect WordPress to Google Analytics
@@ -145,7 +171,7 @@ Links, tweets and likes also appreciated. Thank you! :)
 1. Upload the plugin to your blog and activate
 2. Visit the settings to configure your options
 
-[More info on installing WP plugins](https://wordpress.org/support/article/managing-plugins/#installing-plugins)
+[More info on installing WP plugins](https://wordpress.org/documentation/article/manage-plugins/#installing-plugins-1)
 
 
 **Usage**
@@ -167,24 +193,7 @@ Use this template tag to display the chat box anywhere in your theme template:
 
 **More chat forms and features**
 
-The free version of SAC supports one chat form that can be displayed anywhere. The Pro version supports unlimited chat forms and great features like Google reCaptcha, private chats, mute/ban users, and much more. [Get SAC Pro &raquo;](https://plugin-planet.com/simple-ajax-chat-pro/)
-
-
-**Upgrades**
-
-To upgrade Simple Ajax Chat, remove the old version and replace with the new version. Or just click "Update" from the Plugins screen and let WordPress do it for you automatically.
-
-__Note:__ uninstalling the plugin from the WP Plugins screen results in the _removal of all settings and chat messages_ from the WP database. 
-
-
-**Restore Default Options**
-
-To restore default plugin options, either uninstall/reinstall the plugin, or visit the plugin settings &gt; Restore Default Options.
-
-
-**Uninstalling**
-
-Simple Ajax Chat cleans up after itself. All plugin settings and chat messages will be removed from your database when the plugin is uninstalled via the Plugins screen.
+The free version of SAC supports one chat form that can be displayed anywhere. The [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chat forms and great features like Google reCaptcha, private chats, mute/ban users, and much more.
 
 
 **Stopping spam**
@@ -196,7 +205,7 @@ This plugin works in two modes:
 
 "Private" mode stops all automated spam, but registered users may still send "spammy" chat messages. Likewise, the "Open Air" mode is super effective at blocking automated spam, but some manual spam may get through. As a general rule, the longer your chat forum is online, the more of a target it will be for spam.
 
-Alternately/additionally you can [use .htaccess to block spammers](https://wp-mix.com/htaccess-block-spammer/). It's an easy, super-effective method for controlling access to your site.
+Alternately/additionally you can [use .htaccess to block spammers](https://wp-mix.com/htaccess-block-spammer/). It's an easy, super-effective method for controlling access to your site. Also note that the [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) provides built-in support for Google reCaptcha, which is very effective at stopping spam.
 
 
 **Browser Notifications**
@@ -218,12 +227,25 @@ Some additional notes just FYI:
 If you like Simple Ajax Chat, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/simple-ajax-chat/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
 
 
+**Upgrades**
+
+Visit the WordPress Plugins screen, locate the plugin, and click "Update" :)
+
+
+**Restore Default Options**
+
+To restore default plugin options, either uninstall/reinstall the plugin, or visit the plugin settings &gt; Restore Default Options.
+
+
+**Uninstalling**
+
+This plugin cleans up after itself. All plugin settings and chat messages will be removed from the WordPress database when the plugin is deleted via the WP Plugins screen. Note: if you want to keep a copy of your chat messages, visit the plugin settings and export them as a CSV file.
+
+
 
 == Upgrade Notice ==
 
-To upgrade Simple Ajax Chat, remove the old version and replace with the new version. Or just click "Update" from the Plugins screen and let WordPress do it for you automatically.
-
-__Note:__ uninstalling the plugin from the WP Plugins screen results in the _removal of all settings and chat messages_ from the WP database. 
+Visit the WordPress Plugins screen, locate the plugin, and click "Update" :)
 
 
 
@@ -355,18 +377,16 @@ Send any questions or feedback via my [contact form](https://plugin-planet.com/s
 
 If you like Simple Ajax Chat, please take a moment to [give a 5-star rating](https://wordpress.org/support/plugin/simple-ajax-chat/reviews/?rate=5#new-post). It helps to keep development and support going strong. Thank you!
 
-> 👉🏻 [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chats!
+> 👉 [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chats, user blocking/muting, advanced chat management, emojis, and much more!
 
 
-**20250329**
+**20260205**
 
-* Removes `sac_i18n_init()` function
-* Adds function to check if pro version active
-* Adds uninstall option `simple-ajax-chat-dismiss-notice`
-* Bumps minimum required WP version
 * Updates plugin settings page
+* Improves readme.txt documentation
 * Generates new language template
-* Tests on WordPress 6.8
+* Tests on PHP 8.4 and 8.5
+* Tests on WordPress 6.9 + 7.0 (nightly)
 
 
 Full changelog @ [https://plugin-planet.com/wp/changelog/simple-ajax-chat.txt](https://plugin-planet.com/wp/changelog/simple-ajax-chat.txt)

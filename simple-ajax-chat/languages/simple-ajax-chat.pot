@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-03-29 15:27+0000\n"
+"POT-Creation-Date: 2026-02-05 17:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Loco https://localise.biz/"
 
-#: simple-ajax-chat.php:84
+#: simple-ajax-chat.php:122
 msgid " or higher, and has been deactivated! "
 msgstr ""
 
@@ -23,47 +23,43 @@ msgstr ""
 msgid "%s ago"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:879
+#: simple-ajax-chat-admin.php:889
 msgid "&ldquo;Fade-in&rdquo; background-color of new chat messages."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:889
+#: simple-ajax-chat-admin.php:899
 msgid "&ldquo;Fade-out&rdquo; background-color of new chat messages."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:642
+#: simple-ajax-chat-admin.php:652
 msgid "(SAC) displays an Ajax-powered chat box anywhere on your site."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:957
+#: simple-ajax-chat-admin.php:967
 msgid "After chat box"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:975
+#: simple-ajax-chat-admin.php:985
 msgid "After chat form"
 msgstr ""
 
-#: simple-ajax-chat.php:170
+#: simple-ajax-chat.php:208
 msgid "ago"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:592
+#: simple-ajax-chat-admin.php:602
 msgid "All chat messages deleted."
-msgstr ""
-
-#: simple-ajax-chat-admin.php:1264
-msgid "and"
 msgstr ""
 
 #: support-panel.php:87
 msgid "and is greatly appreciated."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:619
+#: simple-ajax-chat-admin.php:629
 msgid "and/or"
 msgstr ""
 
-#: simple-ajax-chat.php:310
+#: simple-ajax-chat.php:348
 msgid "Anonymous"
 msgstr ""
 
@@ -73,15 +69,15 @@ msgid ""
 "awesome WordPress resources."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:901
+#: simple-ajax-chat-admin.php:911
 msgid "Appearance"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1266
+#: simple-ajax-chat-admin.php:1273
 msgid "Apply code"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1215
+#: simple-ajax-chat-admin.php:1225
 msgid ""
 "Are you sure you want to create a new file on the server? It may contain "
 "sensitive data like user IP address. You can always delete the file by "
@@ -89,35 +85,35 @@ msgid ""
 "created. Click \"OK\" to continue."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1266
-msgid "at checkout. Sale ends 6/25/2025."
+#: simple-ajax-chat-admin.php:1273
+msgid "at checkout. Sale ends 3/28/2026."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:998
+#: simple-ajax-chat-admin.php:1008
 msgid "Banned Phrases"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1014
+#: simple-ajax-chat-admin.php:1024
 msgid "Banned phrases"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:948
+#: simple-ajax-chat-admin.php:958
 msgid "Before chat box"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:966
+#: simple-ajax-chat-admin.php:976
 msgid "Before chat form"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1265 support-panel.php:79
+#: support-panel.php:79
 msgid "books"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1158
+#: simple-ajax-chat-admin.php:1168
 msgid "by"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:935
+#: simple-ajax-chat-admin.php:945
 msgid "By default, SAC JavaScript is included on *every* page."
 msgstr ""
 
@@ -147,56 +143,56 @@ msgstr[1] ""
 msgid "Chat Name"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:752
+#: simple-ajax-chat-admin.php:762
 msgid "Chat order"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:931
+#: simple-ajax-chat-admin.php:941
 msgid "Chat URL"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:595
+#: simple-ajax-chat-admin.php:605
 msgid "Chats exported to CSV file."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:629
+#: simple-ajax-chat-admin.php:639
 msgid "Check this box if you have shown support"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:909
+#: simple-ajax-chat-admin.php:919
 msgid "Check this box if you want to enable the Custom CSS styles."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1093
+#: simple-ajax-chat-admin.php:1103
 msgid ""
 "Click the \"Export\" link to create a CSV file named \"sac-export.csv\", "
 "located in the SAC plugin directory. A download link will appear after the "
 "file is created."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1107
+#: simple-ajax-chat-admin.php:1117
 msgid "Click the button to restore plugin options to their default setttings."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:880
+#: simple-ajax-chat-admin.php:890
 msgid "Color must be 6-digit-hex format, default color is #ffffcc."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:890
+#: simple-ajax-chat-admin.php:900
 msgid "Color must be 6-digit-hex format, default color is #ffffff."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1001
+#: simple-ajax-chat-admin.php:1011
 msgid ""
 "Comma-separated List of banned words/phrases that never will be displayed in "
 "the chat box."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:593
+#: simple-ajax-chat-admin.php:603
 msgid "Comment deleted successfully."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:594
+#: simple-ajax-chat-admin.php:604
 msgid "Comment edited successfully."
 msgstr ""
 
@@ -204,75 +200,75 @@ msgstr ""
 msgid "Currently there "
 msgstr ""
 
-#: simple-ajax-chat-admin.php:944
+#: simple-ajax-chat-admin.php:954
 msgid "Custom content"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:914
+#: simple-ajax-chat-admin.php:924
 msgid "Custom CSS styles"
 msgstr ""
 
-#: simple-ajax-chat.php:728
+#: simple-ajax-chat.php:766
 msgid "day"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:691
+#: simple-ajax-chat-admin.php:701
 msgid ""
 "Default &ldquo;welcome&rdquo; message that appears as the first chat comment."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:870
+#: simple-ajax-chat-admin.php:880
 msgid "Default is 1.5 seconds (1500 ms)."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:687
+#: simple-ajax-chat-admin.php:697
 msgid "Default message"
 msgstr ""
 
-#: simple-ajax-chat.php:491
+#: simple-ajax-chat.php:529
 msgid "Default message not inserted."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:678
+#: simple-ajax-chat-admin.php:688
 msgid "Default name"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:682
+#: simple-ajax-chat-admin.php:692
 msgid ""
 "Default name for &ldquo;welcome&rdquo; message. Reset chat messages for new "
 "name to be displayed."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:816
+#: simple-ajax-chat-admin.php:826
 msgid "Default notification icon"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:807
+#: simple-ajax-chat-admin.php:817
 msgid "Default notification title"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:811
+#: simple-ajax-chat-admin.php:821
 msgid "Default notification title."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:591
+#: simple-ajax-chat-admin.php:601
 msgid "Default settings restored."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1064
+#: simple-ajax-chat-admin.php:1074
 msgid "Delete"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1082
+#: simple-ajax-chat-admin.php:1092
 msgid "Delete all chats"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1199
+#: simple-ajax-chat-admin.php:1209
 msgid ""
 "Delete all messages and reset the chat box? (this action cannot be undone)"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1117
+#: simple-ajax-chat-admin.php:1127
 msgid "Delete all plugin settings"
 msgstr ""
 
@@ -280,54 +276,54 @@ msgstr ""
 msgid "Delete CSV File"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:765
+#: simple-ajax-chat-admin.php:775
 msgid ""
 "Disable collection of IP address. No IP info will be stored in the database."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:761
+#: simple-ajax-chat-admin.php:771
 msgid "Disable IP Collection"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:826
+#: simple-ajax-chat-admin.php:836
 msgid "Disable Notification URL"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:830
+#: simple-ajax-chat-admin.php:840
 msgid ""
 "Disable Notification URL. No URL redirection will be done after clicking on "
 "notification."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:835
+#: simple-ajax-chat-admin.php:845
 msgid "Disable Notifications"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:839
+#: simple-ajax-chat-admin.php:849
 msgid "Disable Notifications. Completely disable all notifications."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1341
+#: simple-ajax-chat-admin.php:1348
 msgid "Dismiss"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:737
+#: simple-ajax-chat-admin.php:747
 msgid "Display a larger input field for chat messages."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:710
+#: simple-ajax-chat-admin.php:720
 msgid ""
 "Display chat messages as read-only. So visitors can view chats, but not add "
 "their own."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:756
+#: simple-ajax-chat-admin.php:766
 msgid ""
 "Display chats in ascending order (new messages appear at the bottom of the "
 "list). Requires jQuery."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:706
+#: simple-ajax-chat-admin.php:716
 msgid "Display Mode"
 msgstr ""
 
@@ -348,19 +344,19 @@ msgstr ""
 msgid "Download CSV File"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1065
+#: simple-ajax-chat-admin.php:1075
 msgid "Edit"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:905
+#: simple-ajax-chat-admin.php:915
 msgid "Enable custom styles?"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:728
+#: simple-ajax-chat-admin.php:738
 msgid "Enable users to specify a URL for their chat name."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:821
+#: simple-ajax-chat-admin.php:831
 msgid "Enter a URL or upload for the notification icon."
 msgstr ""
 
@@ -368,54 +364,54 @@ msgstr ""
 msgid "Export all chat data in CSV format"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1089
+#: simple-ajax-chat-admin.php:1099
 msgid "Export Chat Messages"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:596
+#: simple-ajax-chat-admin.php:606
 msgid "Export file deleted successfully."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:865
+#: simple-ajax-chat-admin.php:875
 msgid "Fade duration"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:869
+#: simple-ajax-chat-admin.php:879
 msgid ""
 "Fade-duration of most recent chat message (in milliseconds, decimals allowed)"
 "."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:920
+#: simple-ajax-chat-admin.php:930
 msgid "for a complete list of CSS selectors."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:674
+#: simple-ajax-chat-admin.php:684
 msgid "General options"
 msgstr ""
 
-#: simple-ajax-chat.php:516
+#: simple-ajax-chat.php:554
 msgid "Get SAC Pro!"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:620 simple-ajax-chat-admin.php:653
+#: simple-ajax-chat-admin.php:630 simple-ajax-chat-admin.php:663
 msgid "give it a 5-star rating"
 msgstr ""
 
-#: simple-ajax-chat.php:545
+#: simple-ajax-chat.php:583
 msgid "Give us a 5-star rating at WordPress.org"
 msgstr ""
 
-#: simple-ajax-chat.php:517
+#: simple-ajax-chat.php:555
 msgid "Go&nbsp;Pro"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1032
+#: simple-ajax-chat-admin.php:1042
 msgid ""
 "Here is a list of all chat messages. You can edit or delete any chat message."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:669
+#: simple-ajax-chat-admin.php:679
 msgid ""
 "Here you may customize Simple Ajax Chat to suit your needs. Note: after "
 "updating time and color options, you may need to refresh/empty the browser "
@@ -423,27 +419,27 @@ msgid ""
 "check out the"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1194
+#: simple-ajax-chat-admin.php:1204
 msgid "Hide this notice"
 msgstr ""
 
-#: simple-ajax-chat.php:132
+#: simple-ajax-chat.php:170
 msgid "High five! You&rsquo;ve successfully installed Simple Ajax Chat."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:875
+#: simple-ajax-chat-admin.php:885
 msgid "Highlight fade (from)"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:885
+#: simple-ajax-chat-admin.php:895
 msgid "Highlight fade (to)"
 msgstr ""
 
-#: simple-ajax-chat.php:540
+#: simple-ajax-chat.php:578
 msgid "Homepage"
 msgstr ""
 
-#: simple-ajax-chat.php:729
+#: simple-ajax-chat.php:767
 msgid "hour"
 msgstr ""
 
@@ -459,11 +455,11 @@ msgstr ""
 msgid "Human verification: leave this field empty."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:652
+#: simple-ajax-chat-admin.php:662
 msgid "If you like this plugin, please"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1034
+#: simple-ajax-chat-admin.php:1044
 msgid ""
 "in the chat box. Click &ldquo;Delete all chats&rdquo; to clear the database "
 "and restore the default message."
@@ -480,11 +476,11 @@ msgstr[1] ""
 msgid "Jeff Starr"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1159
+#: simple-ajax-chat-admin.php:1169
 msgid "Jeff Starr on X (Twitter)"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:733
+#: simple-ajax-chat-admin.php:743
 msgid "Large input field"
 msgstr ""
 
@@ -492,28 +488,32 @@ msgstr ""
 msgid "Latest Message:"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1052
+#: simple-ajax-chat-admin.php:1062
 #, php-format
 msgid "Latest Message: %s ago"
 msgstr ""
 
-#: simple-ajax-chat.php:568
+#: simple-ajax-chat-admin.php:1272
+msgid "Level up your chat game with powerful features and unlimited chat forms"
+msgstr ""
+
+#: simple-ajax-chat.php:606
 msgid "Like this plugin? Give it a"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:724
+#: simple-ajax-chat-admin.php:734
 msgid "Linked username"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:715
+#: simple-ajax-chat-admin.php:725
 msgid "Logged-in username"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:619
+#: simple-ajax-chat-admin.php:629
 msgid "make a donation"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:619
+#: simple-ajax-chat-admin.php:629
 msgid "Make a donation via PayPal!"
 msgstr ""
 
@@ -521,28 +521,28 @@ msgstr ""
 msgid "Make a donation&nbsp;&raquo;"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:648 simple-ajax-chat-admin.php:1029
+#: simple-ajax-chat-admin.php:658 simple-ajax-chat-admin.php:1039
 msgid "Manage Chat Messages"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:779
+#: simple-ajax-chat-admin.php:789
 msgid "Max characters"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:770
+#: simple-ajax-chat-admin.php:780
 msgid "Max chats"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:783
+#: simple-ajax-chat-admin.php:793
 msgid ""
 "Maximum number of characters that should be allowed in each chat message."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:792
+#: simple-ajax-chat-admin.php:802
 msgid "Maximum number of characters that should be allowed in the username."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:774
+#: simple-ajax-chat-admin.php:784
 msgid "Maximum number of chats that should be allowed in the chat box."
 msgstr ""
 
@@ -550,20 +550,20 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
-#: simple-ajax-chat.php:730
+#: simple-ajax-chat.php:768
 msgid "minute"
 msgstr ""
 
-#: simple-ajax-chat.php:726
+#: simple-ajax-chat.php:764
 msgid "month"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1135
+#: simple-ajax-chat-admin.php:1145
 msgid "More chat forms"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:797 simple-ajax-chat-admin.php:844 
-#: simple-ajax-chat-admin.php:895 simple-ajax-chat-admin.php:1018
+#: simple-ajax-chat-admin.php:807 simple-ajax-chat-admin.php:854 
+#: simple-ajax-chat-admin.php:905 simple-ajax-chat-admin.php:1028
 msgid "More options"
 msgstr ""
 
@@ -572,22 +572,22 @@ msgstr ""
 msgid "Name"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1094
+#: simple-ajax-chat-admin.php:1104
 msgid ""
 "Note that the export file will contain ALL chat data (including user IP), "
 "and should be deleted after download. You can delete the file by clicking "
 "the \"Delete CSV\" link, which will appear after the file is created."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:803
+#: simple-ajax-chat-admin.php:813
 msgid "Notifications"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1160
+#: simple-ajax-chat-admin.php:1170
 msgid "Obsessive Web Design &amp; Development"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1033
+#: simple-ajax-chat-admin.php:1043
 msgid "one message"
 msgstr ""
 
@@ -595,29 +595,29 @@ msgstr ""
 msgid "Open link in new tab"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:918
+#: simple-ajax-chat-admin.php:928
 msgid "Optional CSS to style the chat form. Do not include"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:961
+#: simple-ajax-chat-admin.php:971
 msgid ""
 "Optional custom content to appear *after* the chat box. Leave blank to "
 "disable."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:979
+#: simple-ajax-chat-admin.php:989
 msgid ""
 "Optional custom content to appear *after* the chat form. Leave blank to "
 "disable."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:952
+#: simple-ajax-chat-admin.php:962
 msgid ""
 "Optional custom content to appear *before* the chat box. Leave blank to "
 "disable."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:970
+#: simple-ajax-chat-admin.php:980
 msgid ""
 "Optional custom content to appear *before* the chat form. Leave blank to "
 "disable."
@@ -631,7 +631,7 @@ msgstr ""
 msgid "or by making a"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:637
+#: simple-ajax-chat-admin.php:647
 msgid "Overview"
 msgstr ""
 
@@ -639,11 +639,11 @@ msgstr ""
 msgid "Perishable Press Books"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:746
+#: simple-ajax-chat-admin.php:756
 msgid "Play sound alert for new chat messages."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:619
+#: simple-ajax-chat-admin.php:629
 msgid "Please"
 msgstr ""
 
@@ -655,7 +655,7 @@ msgstr ""
 msgid "Please Donate"
 msgstr ""
 
-#: simple-ajax-chat.php:85
+#: simple-ajax-chat.php:123
 msgid "Please return to the"
 msgstr ""
 
@@ -663,8 +663,8 @@ msgstr ""
 msgid "Please show support by purchasing one of my"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:649 simple-ajax-chat-admin.php:1158 
-#: simple-ajax-chat.php:539
+#: simple-ajax-chat-admin.php:659 simple-ajax-chat-admin.php:1168 
+#: simple-ajax-chat.php:577
 msgid "Plugin Homepage"
 msgstr ""
 
@@ -672,7 +672,7 @@ msgstr ""
 msgid "Plugin Planet: Pro WordPress Plugins"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:646 simple-ajax-chat-admin.php:665
+#: simple-ajax-chat-admin.php:656 simple-ajax-chat-admin.php:675
 msgid "Plugin Settings"
 msgstr ""
 
@@ -689,92 +689,88 @@ msgstr ""
 msgid "Posted:"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1139
+#: simple-ajax-chat-admin.php:1149
 msgid "Pro version"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:670
+#: simple-ajax-chat-admin.php:680
 msgid "Pro version&nbsp;&raquo;"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1263
-msgid "Pro WordPress plugins"
-msgstr ""
-
-#: simple-ajax-chat.php:546
+#: simple-ajax-chat.php:584
 msgid "Rate this plugin"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:858
+#: simple-ajax-chat-admin.php:868
 msgid "Refresh frequency (in milliseconds, decimals allowed)."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:697
+#: simple-ajax-chat-admin.php:707
 msgid "Require log in"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:701
+#: simple-ajax-chat-admin.php:711
 msgid "Require users to be logged in to view and use the chat box."
 msgstr ""
 
-#: simple-ajax-chat.php:83
+#: simple-ajax-chat.php:121
 msgid "requires WordPress "
 msgstr ""
 
-#: simple-ajax-chat-admin.php:692
+#: simple-ajax-chat-admin.php:702
 msgid "Reset chat messages for new welcome message to be displayed."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1207
+#: simple-ajax-chat-admin.php:1217
 msgid "Restore default plugin settings? (this action cannot be undone)"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1106 simple-ajax-chat-admin.php:1110
+#: simple-ajax-chat-admin.php:1116 simple-ajax-chat-admin.php:1120
 msgid "Restore default settings"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1103
+#: simple-ajax-chat-admin.php:1113
 msgid "Restore Defaults"
 msgstr ""
 
-#: simple-ajax-chat.php:750 simple-ajax-chat.php:759
+#: simple-ajax-chat.php:788 simple-ajax-chat.php:797
 msgid "s"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:986 simple-ajax-chat-admin.php:1023
+#: simple-ajax-chat-admin.php:996 simple-ajax-chat-admin.php:1033
 msgid "Save Settings"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:747
+#: simple-ajax-chat-admin.php:757
 msgid "See the FAQs to learn how to customize the sound alert."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:937
+#: simple-ajax-chat-admin.php:947
 msgid "Separate multiple URLs with a comma. Leave blank to disable."
 msgstr ""
 
-#: simple-ajax-chat.php:507
+#: simple-ajax-chat.php:545
 msgid "Settings"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1127
+#: simple-ajax-chat-admin.php:1137
 msgid "Shortcode"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:647 simple-ajax-chat-admin.php:1124
+#: simple-ajax-chat-admin.php:657 simple-ajax-chat-admin.php:1134
 msgid "Shortcode &amp; Template Tag"
 msgstr ""
 
 #. Name of the plugin
-#: simple-ajax-chat.php:466 support-panel.php:7
+#: simple-ajax-chat.php:504 support-panel.php:7
 msgid "Simple Ajax Chat"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:615
+#: simple-ajax-chat-admin.php:625
 msgid "Simple Ajax Chat needs your support!"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:859
+#: simple-ajax-chat-admin.php:869
 msgid ""
 "Smaller numbers make new chat messages appear faster, but also increase "
 "server load."
@@ -785,7 +781,7 @@ msgstr ""
 msgid "Sorry, you are not allowed to export data."
 msgstr ""
 
-#: simple-ajax-chat.php:196 simple-ajax-chat.php:227
+#: simple-ajax-chat.php:234 simple-ajax-chat.php:265
 msgid "Sorry, you are not allowed to manage chats."
 msgstr ""
 
@@ -793,47 +789,39 @@ msgstr ""
 msgid "Sorry, you are not allowed to reset options."
 msgstr ""
 
-#: simple-ajax-chat.php:256
+#: simple-ajax-chat.php:294
 msgid "Sorry, you are not allowed to truncate chats."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:742
+#: simple-ajax-chat-admin.php:752
 msgid "Sound alerts"
-msgstr ""
-
-#: simple-ajax-chat-admin.php:1261
-msgid "Spring Sale!"
 msgstr ""
 
 #: simple-ajax-chat-form.php:247
 msgid "Submit"
 msgstr ""
 
-#: simple-ajax-chat.php:489
+#: simple-ajax-chat.php:527
 msgid "Successfully inserted default message."
 msgstr ""
 
-#: simple-ajax-chat.php:485
+#: simple-ajax-chat.php:523
 msgid "Successfully truncated SAC table."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1140
+#: simple-ajax-chat-admin.php:1150
 msgid "supports unlimited chat forms (plus way more features)."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:919
+#: simple-ajax-chat-admin.php:929
 msgid "tags. Check out"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1262
-msgid "Take 30% OFF any of our"
-msgstr ""
-
-#: simple-ajax-chat-admin.php:927
+#: simple-ajax-chat-admin.php:937
 msgid "Targeted loading"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1131
+#: simple-ajax-chat-admin.php:1141
 msgid "Template tag"
 msgstr ""
 
@@ -841,55 +829,55 @@ msgstr ""
 msgid "Thank you for using"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:620 simple-ajax-chat-admin.php:653
+#: simple-ajax-chat-admin.php:630 simple-ajax-chat-admin.php:663
 msgid "Thank you for your support!"
 msgstr ""
 
-#: simple-ajax-chat.php:131
+#: simple-ajax-chat.php:169
 msgid "The Admin"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:860
+#: simple-ajax-chat-admin.php:870
 msgid "The default is 3 seconds (3000 ms)."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1138
+#: simple-ajax-chat-admin.php:1148
 msgid "The free version of SAC supports one chat form. The"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1033
+#: simple-ajax-chat-admin.php:1043
 msgid "There must always be at least"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1002
+#: simple-ajax-chat-admin.php:1012
 msgid "This setting applies to usernames, URLs, and chat messages."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:850
+#: simple-ajax-chat-admin.php:860
 msgid "Times and colors"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1118
+#: simple-ajax-chat-admin.php:1128
 msgid ""
 "To delete all plugin settings and chat messages from the database, simply "
 "uninstall (delete) the plugin."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:936
+#: simple-ajax-chat-admin.php:946
 msgid ""
 "To prevent this, and to include the required JavaScript only on the chat "
 "page, enter its URL here."
 msgstr ""
 
-#: simple-ajax-chat.php:86
+#: simple-ajax-chat.php:124
 msgid "to upgrade WordPress and try again."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:605
+#: simple-ajax-chat-admin.php:615
 msgid "Toggle all panels"
 msgstr ""
 
-#: simple-ajax-chat.php:487
+#: simple-ajax-chat.php:525
 msgid "Truncate not needed, zero rows affected."
 msgstr ""
 
@@ -899,15 +887,15 @@ msgid ""
 "write permissions."
 msgstr ""
 
-#: simple-ajax-chat.php:490
+#: simple-ajax-chat.php:528
 msgid "Unable to insert default message."
 msgstr ""
 
-#: simple-ajax-chat.php:486
+#: simple-ajax-chat.php:524
 msgid "Unable to truncate SAC table."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:854
+#: simple-ajax-chat-admin.php:864
 msgid "Update interval"
 msgstr ""
 
@@ -915,21 +903,21 @@ msgstr ""
 msgid "URL"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:719
+#: simple-ajax-chat-admin.php:729
 msgid "Use the logged-in username as the chat name."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:643
+#: simple-ajax-chat-admin.php:653
 msgid ""
 "Use the shortcode to display the chat box on any post or page, or use the "
 "template tag to display anywhere in your theme."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1128
+#: simple-ajax-chat-admin.php:1138
 msgid "Use this shortcode to display the chat box on any WP Post or Page:"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1132
+#: simple-ajax-chat-admin.php:1142
 msgid ""
 "Use this template tag to display the chat box anywhere in your theme "
 "template:"
@@ -943,11 +931,11 @@ msgstr ""
 msgid "User URL"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:788
+#: simple-ajax-chat-admin.php:798
 msgid "Username length"
 msgstr ""
 
-#: simple-ajax-chat.php:507
+#: simple-ajax-chat.php:545
 msgid "Visit Plugin Settings"
 msgstr ""
 
@@ -957,15 +945,15 @@ msgid ""
 "enable the chat box."
 msgstr ""
 
-#: simple-ajax-chat.php:727
+#: simple-ajax-chat.php:765
 msgid "week"
 msgstr ""
 
-#: simple-ajax-chat.php:465
+#: simple-ajax-chat.php:503
 msgid "Welcome to the Chat Forum"
 msgstr ""
 
-#: simple-ajax-chat.php:86
+#: simple-ajax-chat.php:124
 msgid "WordPress Admin Area"
 msgstr ""
 
@@ -981,15 +969,15 @@ msgid ""
 "fields and try again."
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1148
+#: simple-ajax-chat-admin.php:1158
 msgid "WP Resources"
 msgstr ""
 
-#: simple-ajax-chat.php:725
+#: simple-ajax-chat.php:763
 msgid "year"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:1035
+#: simple-ajax-chat-admin.php:1045
 msgid "You can customize the default message in the plugin settings."
 msgstr ""
 
@@ -1001,7 +989,7 @@ msgstr ""
 msgid "You need at least one entry in the chat forum!"
 msgstr ""
 
-#: simple-ajax-chat-admin.php:623
+#: simple-ajax-chat-admin.php:633
 msgid ""
 "Your generous support enables continued development of this free plugin. "
 "Thank you!"
@@ -1011,6 +999,10 @@ msgstr ""
 msgid "Your generous support helps to ensure future development of"
 msgstr ""
 
-#: simple-ajax-chat.php:572
+#: simple-ajax-chat.php:610
 msgid "★★★★★ rating&nbsp;&raquo;"
+msgstr ""
+
+#: simple-ajax-chat-admin.php:1271
+msgid "😎 SAVE 30% on SAC Pro!"
 msgstr ""
