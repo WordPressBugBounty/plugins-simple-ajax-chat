@@ -10,8 +10,8 @@
 	Contributors: specialk
 	Requires at least: 4.7
 	Tested up to: 6.9
-	Stable tag: 20260205
-	Version:    20260205
+	Stable tag: 20260217
+	Version:    20260217
 	Requires PHP: 5.6.20
 	Text Domain: simple-ajax-chat
 	Domain Path: /languages
@@ -36,7 +36,7 @@
 if (!defined('ABSPATH')) exit;
 
 if (!defined('SIMPLE_AJAX_CHAT_WP_VERS'))   define('SIMPLE_AJAX_CHAT_WP_VERS',   '4.7');
-if (!defined('SIMPLE_AJAX_CHAT_VERSION'))   define('SIMPLE_AJAX_CHAT_VERSION',   '20260205');
+if (!defined('SIMPLE_AJAX_CHAT_VERSION'))   define('SIMPLE_AJAX_CHAT_VERSION',   '20260217');
 if (!defined('SIMPLE_AJAX_CHAT_NAME'))      define('SIMPLE_AJAX_CHAT_NAME',      'Simple Ajax Chat');
 if (!defined('SIMPLE_AJAX_CHAT_HOME'))      define('SIMPLE_AJAX_CHAT_HOME',      'https://perishablepress.com/simple-ajax-chat/');
 if (!defined('SIMPLE_AJAX_CHAT_FILE'))      define('SIMPLE_AJAX_CHAT_FILE',      __FILE__);

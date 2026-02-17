@@ -14,22 +14,28 @@ function sac_export_csv() {
 	
 	if (!current_user_can('manage_options')) wp_die(__('Sorry, you are not allowed to export data.', 'simple-ajax-chat'));
 	
-	$file = 'sac-export.csv';
+	$key = get_option('sac_export', false);
 	
-	$size = (string) filesize($file);
+	$file = $key ? 'sac-export-'. $key .'.csv' : false;
 	
-	header('Expires: 0');
-	header('Pragma: public');
-	header('Cache-Control: public');
-	header('Content-Length: '. $size);
-	header('Content-Type: application/csv');
-	header('Content-Description: SAC Export Download');
-	header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
-	header('Content-Disposition: attachment; filename=sac-export.csv');
-	
-	readfile($file);
-	
-	exit();
+	if ($file) {
+		
+		$size = (string) filesize($file);
+		
+		header('Expires: 0');
+		header('Pragma: public');
+		header('Cache-Control: public');
+		header('Content-Length: '. $size);
+		header('Content-Type: application/csv');
+		header('Content-Description: SAC Export Download');
+		header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
+		header('Content-Disposition: attachment; filename='. $file);
+		
+		readfile($file);
+		
+		exit();
+		
+	}
 	
 }
 

@@ -290,6 +290,31 @@ add_action('admin_menu', 'sac_add_options_page');
 
 
 
+// add random export key
+function sac_update_export_key() {
+	
+	$key = get_option('sac_export', false);
+	
+	if (!$key) {
+		
+		$key = wp_generate_password(30, false);
+		
+		$update = update_option('sac_export', $key);
+		
+		$update = $update ? __('SAC: successfully added export key', 'simple-ajax-chat') : __('SAC: failed to add export key', 'simple-ajax-chat');
+		
+		$log = apply_filters('sac_update_export_key_log', false);
+		
+		if ($log) error_log(print_r($update, true));
+		
+	}
+	
+	return $key;
+	
+}
+
+
+
 // export chat messages
 function sac_export_chats() {
 	
@@ -309,7 +334,9 @@ function sac_export_chats() {
 	
 	$site_url = get_bloginfo('url');
 	
-	$export = plugin_dir_path(__FILE__) .'exports/sac-export.csv';
+	$key = sac_update_export_key();
+	
+	$export = $key ? plugin_dir_path(__FILE__) .'exports/sac-export-'. $key .'.csv' : false;
 	
 	$fp = fopen($export, 'w');
 	
@@ -393,12 +420,18 @@ function sac_export_chat_panel() {
 		
 	}
 	
-	$filepath = plugin_dir_path(__FILE__) .'exports/sac-export.csv';
+	$key = get_option('sac_export', false);
 	
-	if (file_exists($filepath)) {
+	if ($key) {
 		
-		$output .= '<p><a href="'. esc_url($delete_href) .'">'. esc_html__('Delete CSV File', 'simple-ajax-chat') .'</a></p>';
+		$file = plugin_dir_path(__FILE__) .'exports/sac-export-'. $key .'.csv';
+		
+		if (file_exists($file)) {
 			
+			$output .= '<p><a href="'. esc_url($delete_href) .'">'. esc_html__('Delete CSV File', 'simple-ajax-chat') .'</a></p>';
+				
+		}
+		
 	}
 	
 	return $output;
@@ -416,11 +449,19 @@ function sac_delete_export_file() {
 	
 	if (!current_user_can('manage_options')) wp_die(__('Sorry, you are not allowed to export data.', 'simple-ajax-chat'));
 	
-	$file = plugin_dir_path(__FILE__) .'exports/sac-export.csv';
+	$key = get_option('sac_export', false);
 	
-	if (file_exists($file)) {
+	if ($key) {
 		
-		unlink($file);
+		$file = plugin_dir_path(__FILE__) .'exports/sac-export-'. $key .'.csv';
+		
+		if (file_exists($file)) {
+			
+			unlink($file);
+			
+			delete_option('sac_export');
+			
+		}
 		
 	}
 	

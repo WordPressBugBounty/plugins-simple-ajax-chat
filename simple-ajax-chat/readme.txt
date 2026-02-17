@@ -10,8 +10,8 @@ Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.7
 Tested up to: 6.9
-Stable tag: 20260205
-Version:    20260205
+Stable tag: 20260217
+Version:    20260217
 Requires PHP: 5.6.20
 Text Domain: simple-ajax-chat
 Domain Path: /languages
@@ -380,12 +380,9 @@ If you like Simple Ajax Chat, please take a moment to [give a 5-star rating](htt
 > 👉 [Pro version](https://plugin-planet.com/simple-ajax-chat-pro/) supports unlimited chats, user blocking/muting, advanced chat management, emojis, and much more!
 
 
-**20260205**
+**20260217**
 
-* Updates plugin settings page
-* Improves readme.txt documentation
-* Generates new language template
-* Tests on PHP 8.4 and 8.5
+* Improves security of CSV export file
 * Tests on WordPress 6.9 + 7.0 (nightly)
 
 
