@@ -196,8 +196,9 @@ function filter_smilies(s) {
 
 // links
 function make_links(s) {
-	var url = s.replace(/[\'\"\<\>\%\{\}\|\^\`\(\)\[\]]/g, '');
-	return '<a target="_blank" rel="noopener noreferrer" href="'+ url +'" class="sac-chat-link">&laquo;link&raquo;</a>';
+	var re = /((http|https|ftp):\/\/[^\s\'\"\%]*)/gi;
+	var text = s.replace(re, '<a target="_blank" rel="noopener noreferrer" href="$1" class="sac-chat-link">&laquo;link&raquo;</a>');
+	return text;
 };
 
 // sound alerts
