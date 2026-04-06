@@ -9,7 +9,7 @@ Author URI: https://plugin-planet.com/
 Donate link: https://monzillamedia.com/donate.html
 Contributors: specialk
 Requires at least: 4.7
-Tested up to: 6.9
+Tested up to: 7.0
 Stable tag: 20260301
 Version:    20260301
 Requires PHP: 5.6.20
