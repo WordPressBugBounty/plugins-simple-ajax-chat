@@ -10,8 +10,8 @@
 	Contributors: specialk
 	Requires at least: 4.7
 	Tested up to: 7.0
-	Stable tag: 20260301
-	Version:    20260301
+	Stable tag: 20260422
+	Version:    20260422
 	Requires PHP: 5.6.20
 	Text Domain: simple-ajax-chat
 	Domain Path: /languages
@@ -36,7 +36,7 @@
 if (!defined('ABSPATH')) exit;
 
 if (!defined('SIMPLE_AJAX_CHAT_WP_VERS'))   define('SIMPLE_AJAX_CHAT_WP_VERS',   '4.7');
-if (!defined('SIMPLE_AJAX_CHAT_VERSION'))   define('SIMPLE_AJAX_CHAT_VERSION',   '20260301');
+if (!defined('SIMPLE_AJAX_CHAT_VERSION'))   define('SIMPLE_AJAX_CHAT_VERSION',   '20260422');
 if (!defined('SIMPLE_AJAX_CHAT_NAME'))      define('SIMPLE_AJAX_CHAT_NAME',      'Simple Ajax Chat');
 if (!defined('SIMPLE_AJAX_CHAT_HOME'))      define('SIMPLE_AJAX_CHAT_HOME',      'https://perishablepress.com/simple-ajax-chat/');
 if (!defined('SIMPLE_AJAX_CHAT_FILE'))      define('SIMPLE_AJAX_CHAT_FILE',      __FILE__);
@@ -119,8 +119,8 @@ function sac_require_wp_version() {
 				deactivate_plugins(SIMPLE_AJAX_CHAT_BASE_FILE);
 				
 				$msg  = '<strong>'. SIMPLE_AJAX_CHAT_NAME .'</strong> '. esc_html__('requires WordPress ', 'simple-ajax-chat');
-				$msg .= SIMPLE_AJAX_CHAT_WP_VERS . esc_html__(' or higher, and has been deactivated! ', 'simple-ajax-chat');
-				$msg .= esc_html__('Please return to the', 'simple-ajax-chat') .' <a href="'. admin_url('update-core.php') .'">';
+				$msg .= SIMPLE_AJAX_CHAT_WP_VERS . esc_html__(' or higher, and has been deactivated. ', 'simple-ajax-chat');
+				$msg .= esc_html__('Please return to the', 'simple-ajax-chat') .' <a href="'. admin_url('plugins.php') .'">';
 				$msg .= esc_html__('WordPress Admin Area', 'simple-ajax-chat') .'</a> '. esc_html__('to upgrade WordPress and try again.', 'simple-ajax-chat');
 				
 				wp_die($msg);
@@ -553,7 +553,7 @@ function sac_plugin_action_links($links, $file) {
 		$pro_href   = 'https://plugin-planet.com/simple-ajax-chat-pro/';
 		$pro_title  = esc_attr__('Get SAC Pro!', 'simple-ajax-chat');
 		$pro_text   = esc_html__('Go&nbsp;Pro', 'simple-ajax-chat');
-		$pro_style  = 'font-weight:bold;';
+		$pro_style  = 'padding:2px 4px;font-weight:bold;border:1px solid #00CCCC;border-radius:2px;background-color:#fff;';
 		
 		$pro = '<a target="_blank" rel="noopener noreferrer" href="'. $pro_href .'" title="'. $pro_title .'" style="'. $pro_style .'">'. $pro_text .'</a>';
 		
@@ -573,11 +573,11 @@ function add_sac_links($links, $file) {
 	
 	if ($file === SIMPLE_AJAX_CHAT_BASE_FILE) {
 		
-		$home_href  = 'https://perishablepress.com/simple-ajax-chat/';
-		$home_title = esc_attr__('Plugin Homepage', 'simple-ajax-chat');
-		$home_text  = esc_html__('Homepage', 'simple-ajax-chat');
+		$home_href  = 'https://plugin-planet.com/simple-ajax-chat-pro/';
+		$home_title = esc_attr__('Get SAC Pro!', 'simple-ajax-chat');
+		$home_text  = esc_html__('Go&nbsp;Pro', 'simple-ajax-chat');
 		
-		$links[] = '<a target="_blank" rel="noopener noreferrer" href="'. $home_href .'" title="'. $home_title .'">'. $home_text .'</a>';
+		$links[] = '😎 <strong><a target="_blank" rel="noopener noreferrer" href="'. $home_href .'" title="'. $home_title .'">'. $home_text .'</a></strong>';
 		
 		$rate_href  = 'https://wordpress.org/support/plugin/simple-ajax-chat/reviews/?rate=5#new-post';
 		$rate_title = esc_attr__('Give us a 5-star rating at WordPress.org', 'simple-ajax-chat');

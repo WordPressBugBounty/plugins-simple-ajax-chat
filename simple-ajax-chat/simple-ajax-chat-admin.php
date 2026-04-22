@@ -70,10 +70,12 @@ function sac_restore_defaults() {
 	
 	if (isset($_GET['sac_restore'])) {
 		
+		$dismiss_delete = delete_option('simple-ajax-chat-dismiss-notice');
+		
 		$update_options = update_option('sac_options', sac_default_options());
 		$update_censors = update_option('sac_censors', sac_default_censors());
 		
-		$sac_restore_success = ($update_options || $update_censors) ? 'true' : 'false';
+		$sac_restore_success = ($dismiss_delete || $update_options || $update_censors) ? 'true' : 'false';
 		
 		$url = admin_url('options-general.php?page=simple_ajax_chat');
 		
@@ -1309,9 +1311,12 @@ function sac_admin_notice() {
 			
 			<div class="notice notice-success notice-lh">
 				<p>
-					<strong><?php esc_html_e('😎 SAVE 30% on SAC Pro!', 'simple-ajax-chat'); ?></strong> 
-					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/simple-ajax-chat-pro/"><?php esc_html_e('Level up your chat game with powerful features and unlimited chat forms', 'simple-ajax-chat'); ?></a>. 
-					<?php esc_html_e('Apply code', 'simple-ajax-chat'); ?> <code>SACPRO</code> <?php esc_html_e('at checkout. Sale ends 3/28/2026.', 'simple-ajax-chat'); ?> 
+					<strong><?php esc_html_e('🌼 Spring Sale!', 'simple-ajax-chat'); ?></strong> 
+					<?php esc_html_e('Take 30% OFF any of our', 'simple-ajax-chat'); ?> 
+					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/"><?php esc_html_e('Pro WordPress plugins', 'simple-ajax-chat'); ?></a> 
+					<?php esc_html_e('and', 'simple-ajax-chat'); ?> 
+					<a target="_blank" rel="noopener noreferrer" href="https://books.perishablepress.com/"><?php esc_html_e('books', 'simple-ajax-chat'); ?></a>. 
+					<?php esc_html_e('Apply code', 'simple-ajax-chat'); ?> <code>SPRING30</code> <?php esc_html_e('at checkout. Sale ends 6/28/2026.', 'simple-ajax-chat'); ?> 
 					<?php echo sac_dismiss_notice_link(); ?>
 				</p>
 			</div>
@@ -1394,7 +1399,7 @@ function sac_dismiss_notice_link() {
 
 function sac_check_date_expired() {
 	
-	$expires = apply_filters('sac_check_date_expired', '2026-03-28');
+	$expires = apply_filters('sac_check_date_expired', '2026-06-28');
 	
 	return (new DateTime() > new DateTime($expires)) ? true : false;
 	
